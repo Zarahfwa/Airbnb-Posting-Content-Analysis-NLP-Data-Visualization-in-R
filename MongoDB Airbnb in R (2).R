@@ -14,7 +14,7 @@ library(stringr)
 # This is the connection_string. You can get the exact url from your MongoDB cluster screen
 #replace the <<user>> with your Mongo user name and <<password>> with the mongo password
 #lastly, replace the <<server_name>> with your MongoDB server name
-connection_string <- 'mongodb+srv://zfwa2020:QPZnQOSg2E83TrrU@cluster0.wcnor8l.mongodb.net/'
+connection_string <- 'mongodb+srv://zfw...:QPZnQOSg2E83TrrU@cluster0.wcnor8l.mongodb.net/'
 airbnb_collection <- mongo(collection="listingsAndReviews", db="sample_airbnb", url=connection_string)
 
 
